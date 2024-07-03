@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    color: #333; /* Texto gris oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #e0e0e0; /* Fondo del nav gris claro */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555; /* Texto del nav gris medio */
+}
+
+nav a:hover {
+    color: #000; /* Texto del nav al pasar el ratón gris oscuro */
+}
+
+#contenedor-propiedades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff; /* Fondo de la tarjeta blanco */
+    border: 1px solid #ccc; /* Borde de la tarjeta gris claro */
+    padding: 15px;
+    margin: 10px;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.card h2 {
+    color: #444; /* Título de la tarjeta gris oscuro */
+}
+
+.card p {
+    color: #666; /* Texto de la tarjeta gris medio */
+}
+
+img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%); /* Imágenes en escala de grises */
+    transition: filter 0.3s;
+}
+
+img:hover {
+    filter: none; /* Quitar escala de grises al pasar el ratón */
+}
